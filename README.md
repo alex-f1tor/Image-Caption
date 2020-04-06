@@ -21,8 +21,22 @@ $  wget https://drive.google.com/open?id=19mcr08t6gY0UcUiAKTkBPO8MP0_wsghV -O 'd
 
 ## Generating descriptions for images
 
-You can find an example of using this caption generator at [Inference.ipynb]() notebook
+You can find an example of using this caption generator at [Inference.ipynb](https://github.com/alex-f1tor/Image-Caption/blob/master/Inference.ipynb) notebook.
+
+Few examples of generated captions for images:
+
+![Image](https://github.com/alex-f1tor/Image-Caption/blob/master/imgs/bird_sample.png)
+
+![Image](https://github.com/alex-f1tor/Image-Caption/blob/master/imgs/pizza_sample.png)
+
 
 You can also:
-  - Train your own caption network with MS-COCO dataset based on pipeline at [Training.ipynb]()
-  - Estimate model performance at [cocoEvalCap.ipynb]() via different [metrics](https://github.com/tylin/coco-caption), like CIDEr, Rouge-L and etc.
+  - Train your own caption network with MS-COCO dataset based on pipeline at [Training.ipynb](https://github.com/alex-f1tor/Image-Caption/blob/master/Training.ipynb)
+  - Estimate model performance at [cocoEvalCap.ipynb](https://github.com/alex-f1tor/Image-Caption/blob/master/cocoEvalCap.ipynb) via different [metrics](https://github.com/tylin/coco-caption), like CIDEr, Rouge-L and etc.
+
+
+## Model performance
+
+The general estimation of captions quality generated for MS-COCO validation set by [CIDEr](https://arxiv.org/abs/1411.5726) metric:
+![Image](https://github.com/alex-f1tor/Image-Caption/blob/master/imgs/CIDER_coco_valset.png)
+
